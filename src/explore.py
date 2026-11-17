@@ -9,6 +9,11 @@ print(df.shape)
 print(df.info())
 print(df.head())
 
+#taux de suvie :
+print ("Taux de survie global :", df["survived"].mean())
+print ("Nombre de survivants :", df["survived"].sum())
+print("Répartition :")
+print(df["survived"].value_counts())
 
 
 
